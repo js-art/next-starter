@@ -1,13 +1,11 @@
-import { FaHeart, FaShareAlt } from 'react-icons/fa';
+import { FaHeart, FaShareAlt } from "react-icons/fa";
 
-import styles from './Post.module.scss';
+import styles from "./Post.module.scss";
 
 const Post = ({ content, date }) => {
   return (
     <>
-      <p className={styles.postsContent}>
-        { content }
-      </p>
+      <p className={styles.postsContent}>{content}</p>
       <ul className={styles.postsMeta}>
         <li className={styles.postsMetaData}>
           <FaHeart />
@@ -17,12 +15,10 @@ const Post = ({ content, date }) => {
           <FaShareAlt />
           Share
         </li>
-        <li className={styles.postsMetaData}>
-          { date }
-        </li>
+        <li className={styles.postsMetaData}>{date}</li>
       </ul>
     </>
-  )
-}
+  );
+};
 
 export default Post;

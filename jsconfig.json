@@ -1,15 +1,15 @@
 {
-    "compilerOptions": {
-        "baseUrl": ".",
-        "paths":{
-            "@/ct/*":["controllers/*"],
-            "@/db":["config/dbConnect.js"],
-            "@/md/*":["models/*"],
-            "@/mid/*":["middlewares/*"],
-            "@/dt/*":["data/*"],
-            "@/ut/*":["utils/*"],
-            "@/handler":["src/shared/handler.js"],
-            "@/ly/*":["src/components/layouts/*"],
-        },
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/ct/*": ["controllers/*"],
+      "@/db": ["config/dbConnect.js"],
+      "@/md/*": ["models/*"],
+      "@/mid/*": ["middlewares/*"],
+      "@/dt/*": ["data/*"],
+      "@/ut/*": ["utils/*"],
+      "@/handler": ["src/shared/handler.js"],
+      "@/ly/*": ["src/components/layouts/*"]
     }
+  }
 }
