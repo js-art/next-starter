@@ -9,7 +9,7 @@ const About = () => {
       </Head>
       <h1>Hi about</h1>
       <Link href="/">
-            <a>Home page</a>
+                        <a>Home page</a>
       </Link>
     </>
   );
