@@ -12,9 +12,9 @@
     "build-storybook": "build-storybook",
     "format": "prettier --write ."
   },
-  "huskey": {
-    "hooks":{
-      "pre-commit":"yarn format && git add -A ."
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn format && git add -A ."
     }
   },
   "dependencies": {
