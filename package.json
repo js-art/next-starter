@@ -13,11 +13,6 @@
     "format": "prettier --write .",
     "prepare": "husky install"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn format && git add -A ."
-    }
-  },
   "dependencies": {
     "framer-motion": "^4.1.17",
     "mongoose": "^5.12.4",
